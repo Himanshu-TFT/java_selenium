@@ -41,6 +41,7 @@ public class Click_sendkeys {
         System.out.println(sText);
 
         js.executeAsyncScript("window.setTimeout(arguments[arguments.length - 1],5000);");
+        // js.executeScript("window.setTimeout(()=>{arguments[0].click()},3000)",btn);
         js.executeScript("alert('successfully logged in');");
 
 

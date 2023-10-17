@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="demoTest">
+    <listeners>
+        <listener class-name="TestNG_Demo.Basics.LinstenersDemo.LinstenersDemo2.testNgListners"/>
+    </listeners>
+    <test name="listenersTest">
+
+        <classes>
+            <class name="TestNG_Demo.Basics.LinstenersDemo.LinstenersDemo2.sampleTest">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

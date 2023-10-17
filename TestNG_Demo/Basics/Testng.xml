@@ -5,7 +5,7 @@
         <classes>
             <class name="TestNG_Demo.Basics.ExceptionTimeOutTest"/>
             <class name="TestNG_Demo.Basics.GoogleTest"/>
-            <class name="TestNG_Demo.Basics.config.GoogleTitleTest"/>
+            <class name="TestNG_Demo.Basics.propertiesFile.config.GoogleTitleTest"/>
             <class name="TestNG_Demo.Basics.invocationCountTest"/>
             <class name="TestNG_Demo.Basics.priorities"/>
             <class name="TestNG_Demo.Basics.TestNgBasics"/>

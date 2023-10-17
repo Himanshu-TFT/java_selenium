@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test1">
+    <test name="parameterTest">
+        <parameter name="name" value="himanshu"/>
+        <parameter name="role" value="software trainee"/>
+        <parameter name="url" value="https://www.google.com/"/>
+        <classes>
+            <class name="TestNG_Demo.Basics.parameters.parametersDemo2.ParameterTest">
+                <methods>
+                    <include name="Test"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

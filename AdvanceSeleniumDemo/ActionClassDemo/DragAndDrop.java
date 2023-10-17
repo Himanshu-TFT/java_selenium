@@ -22,9 +22,9 @@ public class DragAndDrop {
         WebElement drop = driver.findElement(By.id("droppable"));
         Actions action =new Actions(driver);
 
-//        action.clickAndHold(drag).moveToElement(drop).release().build().perform();
+      action.clickAndHold(drag).moveToElement(drop).release().build().perform();
 
-        action.dragAndDrop(drag,drop).build().perform();
+//        action.dragAndDrop(drag,drop).build().perform();
 
 
     }

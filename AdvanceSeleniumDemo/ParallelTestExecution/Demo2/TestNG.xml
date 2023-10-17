@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" parallel test execution" >
+    <test name="parallel test1">
+        <classes>
+            <class name="AdvanceSeleniumDemo.ParallelTestExecution.Demo2.chromeTest"/>
+        </classes>
+    </test>
+    <test name="parallel test2">
+        <classes>
+            <class name="AdvanceSeleniumDemo.ParallelTestExecution.Demo2.edgeTest"/>
+            <class name="AdvanceSeleniumDemo.ParallelTestExecution.Demo2.firefoxTest"/>
+        </classes>
+    </test>
+</suite>

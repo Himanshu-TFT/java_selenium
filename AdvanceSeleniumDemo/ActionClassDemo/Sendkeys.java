@@ -21,7 +21,7 @@ public class Sendkeys {
         WebElement element= driver.findElement(By.name("username"));
 
 ////        sendkeys
-        action.sendKeys(element, "Admin").build().perform();
+//        action.sendKeys(element, "Admin").build().perform();
 //
 ////        keys down
         action.keyDown(Keys.SHIFT).perform();
